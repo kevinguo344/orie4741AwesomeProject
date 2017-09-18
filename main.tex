@@ -1,4 +1,4 @@
-\documentclass[a4paper]{article}
+\documentclass[letter]{article}
 
 %% Language and font encodings
 \usepackage[english]{babel}
@@ -18,10 +18,34 @@
 \author{Auston Li (al884) & Kevin Guo (kg344)}
 
 \begin{document}
-\maketitle
 
-\section{Introduction}
+\section{Y-Combinator}
+\href{https://www.kaggle.com/benhamner/y-combinator-companies/data}{Y-Combinator Dataset}
+\newline
+\href{https://data.crunchbase.com/v3/docs/using-the-api}{Crunchbase API}
+\newline
+By combining the Y-Combinator dataset and the Crunchbase API (which includes valuation, founder information, category, etc.) we will be able to see the common traits between startups and/or founders that are chosen by Y-Combinator for the prestigious accelerator, whether these startups were more successful compared to other startups (through metrics such as valuation, fundings, IPO's and/or acquisition), and which early-stage startups are likely to be chosen by Y-Combinator in the future. This is important because it will allow investors to determine which startups are more likely to succeed, especially in the early-stage where it's difficult to determine how well a startup will perform. It will also be important for incubators such as Y-Combinator in determining if their selection process is flawed or biased in a way that blinds it from selecting startups that are likely to be successful in the future.
 
+\section{Amazon Food Reviews}
+\href{https://www.kaggle.com/snap/amazon-fine-food-reviews}{Amazon Food Reviews Dataset}
+\newline
+This dataset contains 10 columns relating to the various identifiers, usefulness indices, scores, timestamps, and the text review. This seems like an interesting dataset based off of the diversity of the datatypes, categorical, numerical, and textual. This will allow us to leverage a variety of data parsing and feature engineering techniques. We'd like to take this information and figure out what kind of words do reviews that are useful typically utilize. This could be greatly useful for filtering spam/troll reviews on Amazon, which will be greatly useful for customers and corporations alike to help boost their quality and quantity of purchases.
 
+\section{Political Twitter}
+\href{https://www.kaggle.com/fivethirtyeight/fivethirtyeight}{Five Thirty-Eight Repo}
+\newline
+\href{https://dev.twitter.com/rest/public}{Twitter API}
+\newline
+The Five Thirty-Eight dataset contains various tweets from Donald Trump with the ID, Date, and content each tweet. The Twitter API will allow us to gather and parse the tweets of individual users. The point of this project will be to see whether there is a divide in language (words and phrases) used between liberal, centrist, and conservative prominent users such as politicians, pundits, and other public figures. This could either illustrate or disprove the polarization that is currently being discussed in academic and public circles. 
+
+\section{Gender Voice Recognition}
+\href{https://www.kaggle.com/primaryobjects/voicegender}{Gender Voice Recognition Dataset}
+\newline
+This dataset consists of a dozen or so numerical columns, which have fairly straightforward interpretations, i.e. frequency, acoustic ranges, modulation, etc. The goal of solving this dataset would allow us to help (insert something politically correct about gender identities). The usefulness of this analysis would allow the increasing number of voice controls/commands (i.e. Alexa, Google Home, Apple HomePod, etc.) and allow more customized features and accurate voice interpretations.
+
+\section{Kaggle H-1B Visa Petitions}
+\href{https://www.kaggle.com/nsharan/h-1b-visa}{H-1B Visa Petition}
+\newline
+H-1B visas are the subject of much controversy as of late. This dataset is a compilation of various occupational statistics and the status of the applications. The objective with this dataset is to identify biases against certain industries and note wage discrepancies amongst certified, withdrawn, or denied. This could be used to help a lot of people whose current immigration status are in peril.
 
 \end{document}
